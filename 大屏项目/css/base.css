@@ -31,24 +31,34 @@ a {
 a:hover {
     color: #e33333;
 }
+
 h4 {
     font-weight: 400;
 }
+
+
+
 @media screen and (max-width : 1024px){
     html{
-        background: red !important;
         font-size : 42.66px!important;
     }
     .overview ul li span{
         top : -14px!important;
     }
 }
+
+@media screen and (max-width : 1140px){
+    .chart .data{
+        width:  108px!important;
+    }
+}
+
 @media screen and (min-width : 1920px){
     html{
-        background: yellow !important;
         font-size : 80px!important;
     }
 }
+
 body{
     background: url("../image/bg.jpg") no-repeat;
     background-size:cover;

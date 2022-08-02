@@ -15,7 +15,6 @@
 .column:nth-child(2){
     flex : 4;
 }
-
 .panel{
     position: relative;
     border: 15px solid transparent;
